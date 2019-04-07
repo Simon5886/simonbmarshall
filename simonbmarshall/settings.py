@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'blog.apps.BlogConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -77,7 +78,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'simonbmarshall',
-        'USER': 'simonbm',
+        'USER': 'postgres',
         'PASSWORD': 'dhdS2e0$$',
         'HOST': 'localhost',
         'PORT': '',
